@@ -17,8 +17,5 @@
     "url": "https://github.com/Karonad/BigParsing/issues"
   },
   "homepage": "https://github.com/Karonad/BigParsing#readme",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "JSONStream": "^1.3.5"
-  }
+  "dependencies": {}
 }
