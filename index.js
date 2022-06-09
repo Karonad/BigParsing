@@ -20,7 +20,7 @@ const extractNameFromString = (nameIndex, string) => {
 const  readStream = async (id) => {
   for await (const chunk of stream) {
       const stringedObject = chunk.toString();
-      const stringLocation =  previousChunk.indexOf(id);
+      const stringLocation =  previousChunk.indexOf(' '+id+',');
 
       previousChunk += stringedObject;
       if (stringLocation !== -1) { 
